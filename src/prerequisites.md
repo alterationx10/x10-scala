@@ -23,3 +23,11 @@ you control! If you do not wish to buy/manage a domain, you can use the
 
 Fly.io deployments will have their own domain as well, so using CNAME records
 from your own domain there is _cool_, but also optional.
+
+## IDE
+
+For this book, I recommend using
+[Visual Studio Code](https://code.visualstudio.com/) with the
+[Metals](https://scalameta.org/metals/) plugin for Scala development. Metals is
+a language server that provides IDE features like autocomplete, go to
+definition, and more.
