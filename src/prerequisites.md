@@ -31,3 +31,18 @@ For this book, I recommend using
 [Metals](https://scalameta.org/metals/) plugin for Scala development. Metals is
 a language server that provides IDE features like autocomplete, go to
 definition, and more.
+
+## Other Software
+
+You should get [Docker Desktop](https://www.docker.com/products/docker-desktop)
+and [docker-compose](https://github.com/docker/compose) for local development.
+Docker is a container runtime that allows you to run applications in isolated
+environments. We will use it to bring up our dependencies such as Postgres, and
+Redis.
+
+## Kubernetes
+
+Just kidding! We won't be using Kubernetes in this book. If you come to drips
+with Docker, then you are well on your way to understanding Kubernetes to the
+extent of deploying/managing your applications. It's a powerful tool, but the
+cost-to-benefit ratio is not worth it for the context of this book.
