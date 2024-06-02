@@ -18,5 +18,8 @@ to quickly get up and running with Scala CLI. It will likely already be
 selected, but pick your OS and install method, and follow the instructions. (I
 use homebrew for MacOS).
 
-They also have a setup action for GitHub Actions, which will come in handy
-later!
+As a reminder you will need to install [NodeJS](https://nodejs.org/) to run the
+JavaScript code that ScalaJS produces, and
+[Clang/LLVM Toolchain](https://scala-native.org/en/latest/user/setup.html#installing-clang-and-runtime-dependencies)
+for native interop, if you wish to follow any ScalaJS or Scala Native sections
+of this book.
