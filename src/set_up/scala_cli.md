@@ -23,3 +23,31 @@ JavaScript code that ScalaJS produces, and
 [Clang/LLVM Toolchain](https://scala-native.org/en/latest/user/setup.html#installing-clang-and-runtime-dependencies)
 for native interop, if you wish to follow any ScalaJS or Scala Native sections
 of this book.
+
+As an alternative, you can follow Scala's
+[official getting started guide](https://docs.scala-lang.org/getting-started/index.html),
+and use a tool called [coursier](https://get-coursier.io/docs/cli-overview) to
+run `cs setup`, which installs a few useful things to bootstrap your
+environment, including `scala-cli`.
+
+### Scala CLI vs Scala
+
+This will be a bit confusing at first, but if you were to install Scala via the
+[official getting started guide](https://docs.scala-lang.org/getting-started/index.html)
+and run `cs setup`, it would install a few useful things to bootstrap your
+environment, including `scala` and `scala-cli` commands.
+
+In that guide, the `scala` command is referred to as a _runner_, and `scala-cli`
+is referred to as an _interactive toolkit_. However, as of
+[SIP-46](https://github.com/scala/improvement-proposals/pull/46), the newest
+`scala` runner is based on scala-cli!
+
+What this means for you, in the context of this book, is that we haven't
+necessarily installed the `scala` command, so in order to manage our code, or
+drop into a REPL, we will use the `scala-cli` command. `scala-cli` can manage
+the dependencies for use, and run our code, so it's a good all-in-one tool for
+our purposes.
+
+For a longer discussion, see the
+[What is the difference between Scala runner and Scala CLI](https://virtuslab.com/blog/technology/scala-cli-the-new-scala-runner/)
+from VirtusLab.
